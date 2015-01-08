@@ -1,0 +1,9 @@
+= Lecture 1: Introduction and Syllabus
+
+== Introduction
+
+. What's your name?
+. Why did you pick Computer Science as your major/minor?
+. Tell us something nobody else knows about you.
+
+== https://github.com/lawrancej/COMP310-2014/blob/master/SyllabusCOMP310Lawrance.docx?raw=true[Syllabus (Word document)]

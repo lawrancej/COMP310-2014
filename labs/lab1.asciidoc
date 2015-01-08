@@ -1,0 +1,63 @@
+= Lab 1: Git Setup and Pretest
+
+== Install Git and frontends
+[[install-git]]
+Windows:: https://code.google.com/p/gitextensions/downloads/list[Install Git Extensions, MSysGit and KDiff3].
++
+NOTE: Stick to the default settings, but when asked, *choose OpenSSH (not PuTTY)*.
+
+Mac OS X:: http://rowanj.github.io/gitx/[Install GitX-dev].
++
+NOTE: https://developer.apple.com/xcode/downloads/[XCode developer tools] ships with git; otherwise, http://git-scm.com/download/mac[install the latest git from here].
+
+Linux:: http://git-scm.com/download/linux[Install git] using your package manager. http://sourceforge.net/projects/qgit/[QGit, a git frontend] may also be available for your distribution.
++
+NOTE: Don't forget to use +sudo+ with your package manager.
+
+== Setup your course repository
+[[setup-repo]]
+IMPORTANT: You must use LeopardSecure, not LeopardGuest.
+
+All platforms:: Paste this into your terminal (Git Bash on Windows):
++
+----
+curl https://raw.githubusercontent.com/lawrancej/COMP310-2014/master/starter-upper.sh | bash
+----
++
+NOTE: Press +Insert+ to paste in Git Bash.
+
+== Pretest / Git practice
+
+IMPORTANT: If you use Windows, first download and install
+http://notepad-plus-plus.org/download/v6.6.9.html[a proper text editor]
+(Notepad, Word and WordPad do not count). 
+
+Answer this question:
+
+What do you already know about data structures?
+
+Take a look at the practice midterm in the exams folder.
+
+Create a new text file in your COMP310-2014 folder called practice.txt. In that
+file, write a sentence or two about what (if anything) you'd like to learn in
+this class. Save your work.
+
+Next, stage, commit and push our stuff off to ensure git is working. You can
+also use Git Extensions to do this.
+
+----
+cd ~/COMP310-2014               # Go into your folder
+git add practice.txt            # Stage practice.txt (include in next commit)
+git commit -m "Git practice"    # Commit changes with a message
+git push origin master          # Send work to your private repository
+----
+
+== References
+
+* http://www.atlassian.com/git/[Atlassian Git Tutorials]
+* http://git-scm.com/book[Pro Git]
+* http://gitref.org/[Git Reference]
+* http://gitimmersion.com/[Git Immersion]
+* http://try.github.com/[Try Git]
+* http://pcottle.github.io/learnGitBranching/?demo[Git Branching]
+* http://rogerdudler.github.io/git-guide/[git - the simple guide]

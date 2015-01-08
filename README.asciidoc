@@ -1,0 +1,11 @@
+= COMP310 (Data Structures)
+
+This course will cover all major http://www.cs.usfca.edu/~galles/visualization/Algorithms.html[data structures],
+their http://bigocheatsheet.com/[space/time complexity], and their
+http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773[relevance to programming].
+If you're looking for a textbook, check out http://opendatastructures.org/ods-java/[Open Data Structures].
+
+== Week 1
+
+* https://github.com/lawrancej/COMP310-2014/blob/master/labs/lab1.asciidoc[Lab 1: Software setup]
+* https://github.com/lawrancej/COMP310-2014/blob/master/lectures/lecture1.asciidoc[Lecture 1: Ice-breaker introduction and syllabus]
