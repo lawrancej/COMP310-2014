@@ -4,7 +4,11 @@
 [[install-git]]
 Windows:: http://sourceforge.net/projects/gitextensions/
 +
-NOTE: Stick to the default settings, but when asked, *choose OpenSSH (not PuTTY)*.
+NOTE: Install MsysGit, Install KDiff, and *choose OpenSSH* (not PuTTY); otherwise,
+stick to the default settings.
++
+image:http://lawrancej.github.io/COMP310-2014/images/what2install.png[Install MsysGit and KDiff]
+image:http://lawrancej.github.io/COMP310-2014/images/openssh.png[Choose OpenSSH]
 
 Mac OS X:: http://rowanj.github.io/gitx/[Install GitX-dev].
 +
