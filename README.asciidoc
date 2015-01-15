@@ -5,7 +5,15 @@ their http://bigocheatsheet.com/[space/time complexity], and their
 http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773[relevance to programming].
 If you're looking for a textbook, check out http://opendatastructures.org/ods-java/[Open Data Structures].
 
+== Week 2
+
+* 
+* https://github.com/lawrancej/COMP310-2014/blob/master/labs/lab2.adoc[Lab 2: Scrabble/crossword helper with maps and sets]
+* Lecture 4: Big O, Full text search
+* Lecture 3: Interview question with maps
+
 == Week 1
 
+* Lecture 2: Fizzbuzz, Palindromes, anagrams
 * https://github.com/lawrancej/COMP310-2014/blob/master/labs/lab1.asciidoc[Lab 1: Software setup]
 * https://github.com/lawrancej/COMP310-2014/blob/master/lectures/lecture1.asciidoc[Lecture 1: Ice-breaker introduction and syllabus]

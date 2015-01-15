@@ -2,7 +2,7 @@
 
 == Install Git and frontends
 [[install-git]]
-Windows:: http://sourceforge.net/projects/gitextensions/
+Windows:: http://sourceforge.net/projects/gitextensions/[Install Git Extensions]
 +
 NOTE: Install MsysGit, Install KDiff, and *choose OpenSSH* (not PuTTY); otherwise,
 stick to the default settings.
