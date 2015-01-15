@@ -7,7 +7,6 @@ If you're looking for a textbook, check out http://opendatastructures.org/ods-ja
 
 == Week 2
 
-* 
 * https://github.com/lawrancej/COMP310-2014/blob/master/labs/lab2.adoc[Lab 2: Scrabble/crossword helper with maps and sets]
 * Lecture 4: Big O, Full text search
 * Lecture 3: Interview question with maps
