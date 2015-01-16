@@ -1,0 +1,7 @@
+= Import my stuff
+
+. In Git Bash, `cd ~/COMP310-2014`
+. Then, `git pull upstream master`
+. In Eclipse, File -> Import
+. General -> Existing projects into workspace...
+. Select root directory -> Path to your repository `COMP310-2014`
