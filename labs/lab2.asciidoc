@@ -21,8 +21,8 @@ In postfix, we place the operations (functions) *after* the operands.
 For example, infix expression `(2 + 5) * 3` becomes postfix `2 5 + 3 *`.
 Postfix does not require an order of operations or parentheses for consistent
 evaluation.
-Instead, we just use a stack (in our case, a `vector`, which supplies `push_back`,
-`back` and `pop_back` member functions).
+Instead, we just use a stack (in our case, a `Stack`, which supplies `push`,
+`peek` and `pop` methods).
 
 To evaluate `2 5 + 3 *`, we read from left to right.
 We place `2` on the stack, then place `5` on the stack.
