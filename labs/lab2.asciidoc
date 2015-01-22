@@ -1,3 +1,58 @@
-= Lab 2
+= Lab 2: RPN calculator
 
-Implement a word picker!
+In this lab, write a http://en.wikipedia.org/wiki/Reverse_Polish_notation[RPN calculator].
+
+== Deadline
+
+Finish by January 29.
+
+== Details
+
+Whether you know it or not, you are familiar with *infix* notation in math.
+In infix notation operators (e.g., `+, -, *, /`) are placed *in-between* operands
+(numbers).
+For example, infix expression `(2 + 5) * 3` evaluates to `21`, because we
+evaluate the `2 + 5` first to `7`, then evaluate `7 * 3` to `21`.
+Infix notation requires an order of operations (i.e., PEMDAS), or parentheses
+everywhere to evaluate consistently.
+
+Reverse polish notation (i.e., postfix notation) works differently.
+In postfix, we place the operations (functions) *after* the operands.
+For example, infix expression `(2 + 5) * 3` becomes postfix `2 5 + 3 *`.
+Postfix does not require an order of operations or parentheses for consistent
+evaluation.
+Instead, we just use a stack (in our case, a `vector`, which supplies `push_back`,
+`back` and `pop_back` member functions).
+
+To evaluate `2 5 + 3 *`, we read from left to right.
+We place `2` on the stack, then place `5` on the stack.
+When we see the `+` operator, we pop `2` and `5` off the stack, add them, and
+place the result (`7`) back on the stack.
+Then, we see the value `3`; we place this on the stack.
+Next, we see `*`; we pop the `3` and the `7` off the stack, and multiply.
+We place the result, `21` on the stack.
+
+== Example input
+
+Given this:
+
+----
+5 3 - 4 8 * +
+----
+
+Your program should place `34` on the stack, because
+`5 - 3` is `2` and `4 * 8` is `32` and when you add them together
+we get `34`.
+
+== Hints
+
+Operators (e.g., `+, -, *, /`) pop two items off the stack and place
+the result of the operation on the stack.
+
+Use the algorithm described here:
+
+http://en.wikipedia.org/wiki/Reverse_Polish_notation#Postfix_algorithm[Postfix algorithm]
+
+== How to submit
+
+In Eclipse, it's Team -> Commit... -> Commit and Push
