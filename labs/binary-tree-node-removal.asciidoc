@@ -1,0 +1,12 @@
+= Lab: Remove a node from a binary tree
+
+Modify the `BinaryTreeNode` class in  `workspace/Examples/src/` to implement
+this method:
+
+----
+boolean remove (DataType item);
+----
+
+The function should search through the tree for the item, remove it, and
+http://www.cs.usfca.edu/~galles/visualization/BST.html[update the tree accordingly].
+Remove only one matching item.

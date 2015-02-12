@@ -5,6 +5,12 @@ their http://bigocheatsheet.com/[space/time complexity], and their
 http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773[relevance to programming].
 If you're looking for a textbook, check out http://opendatastructures.org/ods-java/[Open Data Structures].
 
+== Week 5
+
+* https://github.com/lawrancej/COMP310-2014/blob/master/labs/binary-tree-node-removal.asciidoc[Lab: Binary Tree node removal]
+* https://www.youtube.com/watch?v=t8g-iYGHpEA[Different sorting algorithms]
+* https://www.youtube.com/watch?v=k4RRi_ntQc8[Bubble sort: Barack Obama's least favorite sorting algorithm]
+
 == Week 3
 
 * https://github.com/lawrancej/COMP310-2014/blob/master/labs/lab2.asciidoc[Lab 2: RPN calculator]
