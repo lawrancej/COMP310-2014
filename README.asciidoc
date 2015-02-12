@@ -11,6 +11,10 @@ If you're looking for a textbook, check out http://opendatastructures.org/ods-ja
 * https://www.youtube.com/watch?v=t8g-iYGHpEA[Different sorting algorithms]
 * https://www.youtube.com/watch?v=k4RRi_ntQc8[Bubble sort: Barack Obama's least favorite sorting algorithm]
 
+== Week 4
+
+* https://github.com/lawrancej/COMP310-2014/blob/master/labs/evil-hangman.asciidoc[Lab: Evil Hangman]
+
 == Week 3
 
 * https://github.com/lawrancej/COMP310-2014/blob/master/labs/lab2.asciidoc[Lab 2: RPN calculator]

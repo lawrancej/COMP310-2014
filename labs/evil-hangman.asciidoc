@@ -1,0 +1,7 @@
+= Lab: Evil Hangman
+
+Modify the `EvilHangman` and related classed in  `workspace/Examples/src/labs/`
+to implement http://nifty.stanford.edu/2011/schwarz-evil-hangman/Evil_Hangman.pdf[Evil Hangman]
+
+NOTE: You don't need to prompt the user for a word if you randomly select a word length.
+ 
