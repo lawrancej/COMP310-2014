@@ -6,6 +6,10 @@ import org.junit.Test;
 public class BinaryTreeNodeTest {
 
 	@Test
+	public void nonTestMethod() {
+		
+	}
+	@Test
 	public void testAdd() {
 		BinaryTreeNode<String> tree =
 				new BinaryTreeNode<String>("dog");
