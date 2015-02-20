@@ -2,7 +2,6 @@ import java.io.StringReader;
 import java.util.Scanner;
 import java.util.Stack;
 
-
 public class RPN {
 	Stack<Integer> stack = new Stack<Integer>();
 	
