@@ -26,6 +26,34 @@ public class Traversal<DataType> {
 			}
 		}
 	}
+	public static class PostfixVisitor<DataType> implements
+	Visitor<DataType> {
+		@Override
+		public void visit(BinaryTreeNode<DataType> node) {
+			
+			if (node.left != null) {
+				node.left.accept(this);
+			}
+			if (node.right != null) {
+				node.right.accept(this);
+			}
+			System.out.println(node.data);
+		}
+	}
+	public static class InfixVisitor<DataType> implements
+	Visitor<DataType> {
+		@Override
+		public void visit(BinaryTreeNode<DataType> node) {
+			
+			if (node.left != null) {
+				node.left.accept(this);
+			}
+			System.out.println(node.data);
+			if (node.right != null) {
+				node.right.accept(this);
+			}
+		}
+	}
 	public static void main(String[] args) {
 		BinaryTreeNode<String> root = new BinaryTreeNode<String>();
 		root.data = "Ian";
@@ -44,8 +72,12 @@ public class Traversal<DataType> {
 		root.right.right = new BinaryTreeNode<String>();
 		root.right.right.data = "mallory";
 		
-		PrefixVisitor<String> visitor = new PrefixVisitor<String>();
-		root.accept(visitor);
+		PrefixVisitor<String> prefix = new PrefixVisitor<String>();
+		root.accept(prefix);
+		PostfixVisitor<String> postfix = new PostfixVisitor<String>();
+		root.accept(postfix);
+		InfixVisitor<String> infix = new InfixVisitor<String>();
+		root.accept(infix);
 
 	}
 }
