@@ -22,7 +22,7 @@ public class BinaryHeapTest {
 		heap.insert(1000000);
 		assertEquals(1000000, (int)heap.remove());
 		assertEquals(10, (int)heap.remove());
-		assertEquals(5, (int)heap.remove());
+		assertEquals(6, (int)heap.remove());
 	}
 
 	@Test
