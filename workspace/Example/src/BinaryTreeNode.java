@@ -37,4 +37,10 @@ public class BinaryTreeNode
 	public static void main(String[] args) {
 		System.out.println("Hello".compareTo("World"));
 	}
+	public static interface Visitor<T extends Comparable<T>> {
+		public void visit(BinaryTreeNode<T> node);
+	}
+	public void accept(Visitor<DataType> v) {
+		v.visit(this);
+	}
 }
