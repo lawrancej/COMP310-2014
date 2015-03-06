@@ -1,0 +1,5 @@
+= Binary heap
+
+In the `labs` folder, implement and test a Maximum Binary heap using the Binary
+Tree implementation in the same folder.
+
