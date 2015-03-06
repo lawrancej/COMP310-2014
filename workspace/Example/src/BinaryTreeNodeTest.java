@@ -1,16 +1,14 @@
 import static org.junit.Assert.*;
 
+import java.io.IOException;
+
 import org.junit.Test;
 
 
 public class BinaryTreeNodeTest {
 
 	@Test
-	public void nonTestMethod() {
-		
-	}
-	@Test
-	public void testAdd() {
+	public void testAdd() throws IOException {
 		BinaryTreeNode<String> tree =
 				new BinaryTreeNode<String>("dog");
 		tree.add("cat");
@@ -22,6 +20,8 @@ public class BinaryTreeNodeTest {
 		assertEquals("turtle", tree.right.right.data);
 		assertEquals("snake", tree.right.right.left.data);
 		assertTrue(tree.contains("snake"));
+		GraphViz<String> gv = new GraphViz<String>();
+		gv.visit(tree);
 	}
 
 }
