@@ -1,0 +1,18 @@
+= Hash Set
+
+In the `labs` folder, implement and test your own http://www.cs.usfca.edu/~galles/visualization/OpenHash.html[HashSet].
+
+Get the code:
+
+----
+cd ~/COMP310-2014
+# Commit any work as necessary
+git pull upstream master
+----
+
+Submit your work:
+
+----
+git commit -am "Hash set lab done."
+git push origin master
+----

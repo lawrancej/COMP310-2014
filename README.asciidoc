@@ -5,6 +5,7 @@ their http://bigocheatsheet.com/[space/time complexity], and their
 http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773[relevance to programming].
 If you're looking for a textbook, check out http://opendatastructures.org/ods-java/[Open Data Structures].
 
+* https://github.com/lawrancej/COMP310-2014/blob/master/labs/hash-set.adoc[Lab: Hash sets]
 * https://github.com/lawrancej/COMP310-2014/blob/master/labs/binary-heap.adoc[Lab: Binary heap]
 
 == Week 5
