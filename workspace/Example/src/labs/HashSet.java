@@ -46,9 +46,20 @@ public class HashSet<T> implements Set<T> {
 	}
 
 	@Override
-	public Iterator iterator() {
-		// TODO Auto-generated method stub
-		return null;
+	public Iterator<T> iterator() {
+		return new Iterator<T>() {
+			@Override
+			public boolean hasNext() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			@Override
+			public T next() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+		};
 	}
 
 	@Override
