@@ -1,0 +1,15 @@
+= COMP310 Final project
+
+Implement something that makes use of nontrivial data structures.
+Demo during the final exam period.
+Groups of 2-4 (no individual projects, no more than 4 people).
+
+Suggestions:
+
+* https://github.com/lawrancej/comp310project[Starter code for videogame projects]
+** https://github.com/libGDX/libGDX/wiki[LibGDX documentation]
+* https://github.com/lawrancej/spark-demo[Starter code for web projects]
+** http://sparkjava.com/documentation.html[Spark Java documentation]
+* https://eclipse.org/windowbuilder/download.php[See WindowBuilder/SwingDesigner for GUI demos]
+** http://help.eclipse.org/indigo/index.jsp?topic=%2Forg.eclipse.wb.doc.user%2Fhtml%2Findex.html[WindowBuilder documentation]
+
