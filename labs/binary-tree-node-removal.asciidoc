@@ -10,3 +10,10 @@ boolean remove (DataType item);
 The function should search through the tree for the item, remove it, and
 http://www.cs.usfca.edu/~galles/visualization/BST.html[update the tree accordingly].
 Remove only one matching item.
+
+You may need to merge upstream/lab-tree-hint
+
+----
+git fetch --all
+git merge upstream/lab-tree-hint
+----
