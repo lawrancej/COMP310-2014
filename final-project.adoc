@@ -4,7 +4,11 @@ Implement something that makes use of nontrivial data structures.
 Demo during the final exam period.
 Groups of 2-4 (no individual projects, no more than 4 people).
 
-Suggestions:
+Ideas:
+
+* http://nifty.stanford.edu/[Nifty assignments]
+
+Suggestions for user interfaces:
 
 * https://github.com/lawrancej/comp310project[Starter code for videogame projects]
 ** https://github.com/libGDX/libGDX/wiki[LibGDX documentation]
