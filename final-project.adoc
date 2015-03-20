@@ -7,6 +7,7 @@ Groups of 2-4 (no individual projects, no more than 4 people).
 Ideas:
 
 * http://nifty.stanford.edu/[Nifty assignments]
+* Any project that'd make your resume look better
 
 Suggestions for user interfaces:
 

@@ -94,7 +94,7 @@ public class HashSet<T> implements Set<T> {
 
 	// Don't bother implementing, unless you want to do reflection.
 	@Override
-	public Object[] toArray(Object[] arg0) {
+	public <T> T[] toArray(T[] a) {
 		// TODO Auto-generated method stub
 		return null;
 	}
