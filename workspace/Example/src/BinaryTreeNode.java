@@ -16,9 +16,9 @@ public class BinaryTreeNode
 	void add(DataType moreData) {
 		BinaryTreeNode<DataType> node = findNode(moreData);
 		if (node.data.compareTo(moreData) <= 0) {
-			node.right = new BinaryTreeNode<DataType>(moreData, this);
+			node.right = new BinaryTreeNode<DataType>(moreData, node);
 		} else {
-			node.left = new BinaryTreeNode<DataType>(moreData, this);
+			node.left = new BinaryTreeNode<DataType>(moreData, node);
 		}
 	}
 	boolean remove (DataType item) {
