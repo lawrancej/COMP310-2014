@@ -53,17 +53,28 @@ public class HashSet<T> implements Set<T> {
 	@Override
 	public Iterator<T> iterator() {
 		return new Iterator<T>() {
+			int i = 0;
+			Iterator<T> iterator = structure.get(0).iterator();
+			{
+				update();
+			}
+			private void update() {
+				if (i > 12) return;
+				while(!iterator.hasNext()) {
+					i++;
+					iterator = structure.get(i).iterator();
+				}
+			}
 			@Override
 			public boolean hasNext() {
-				// TODO Auto-generated method stub
-				return false;
+				update();
+				return iterator.hasNext();
 			}
 			@Override
 			public T next() {
-				// TODO Auto-generated method stub
-				return null;
+				update();
+				return iterator.next();
 			}
-			
 		};
 	}
 
