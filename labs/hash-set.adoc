@@ -10,6 +10,16 @@ cd ~/COMP310-2014
 git pull upstream master
 ----
 
+For help with iterators, try:
+
+----
+cd ~/COMP310-2014
+# Commit any work as necessary
+git fetch upstream
+git merge upstream/set-iterator-help
+----
+
+
 Submit your work:
 
 ----
